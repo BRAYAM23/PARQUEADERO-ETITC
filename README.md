@@ -57,6 +57,14 @@ Revolucionar el parqueadero de la universidad ETITC mediante un sistema automati
 
 ---
 
+# Diagramas 
+## Diagrama de Actividades
+[![Captura-de-pantalla-2024-10-19-183322.png](https://i.postimg.cc/25qD1rrT/Captura-de-pantalla-2024-10-19-183322.png)](https://postimg.cc/B8GyyW81)
+## Diagrama de Casos de Uso
+[![Captura-de-pantalla-2024-10-19-183431.png](https://i.postimg.cc/T204vBXP/Captura-de-pantalla-2024-10-19-183431.png)](https://postimg.cc/QVBbp4CL)
+## Diagrama de Clases
+[![Captura-de-pantalla-2024-10-19-183507.png](https://i.postimg.cc/gJTLvYZJ/Captura-de-pantalla-2024-10-19-183507.png)](https://postimg.cc/2bn5YNTR)
+
 ## Referencias de Interés
 
 - [Sistema de visión computacional y aprendizaje automático](https://github.com/offsouza/parking_lot_opencv)
