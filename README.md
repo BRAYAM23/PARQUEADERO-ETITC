@@ -64,6 +64,8 @@ Revolucionar el parqueadero de la universidad ETITC mediante un sistema automati
 [![Captura-de-pantalla-2024-10-19-183431.png](https://i.postimg.cc/T204vBXP/Captura-de-pantalla-2024-10-19-183431.png)](https://postimg.cc/QVBbp4CL)
 ## Diagrama de Clases
 [![Captura-de-pantalla-2024-10-19-183507.png](https://i.postimg.cc/gJTLvYZJ/Captura-de-pantalla-2024-10-19-183507.png)](https://postimg.cc/2bn5YNTR)
+## Diagrama de Objetos
+[![Captura-de-pantalla-2024-11-14-154420.png](https://i.postimg.cc/W1rdn06V/Captura-de-pantalla-2024-11-14-154420.png)](https://postimg.cc/mPLZZz5p)
 
 ## Referencias de Interés
 
