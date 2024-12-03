@@ -73,8 +73,67 @@ Revolucionar el parqueadero de la universidad ETITC mediante un sistema automati
 ## Diagrama de Estado
 [![Sin-t-tulo.png](https://i.postimg.cc/RVXwBPCt/Sin-t-tulo.png)](https://postimg.cc/D84SQPXf)
 
+---
 ## Referencias de Interés
 
 - [Sistema de visión computacional y aprendizaje automático](https://github.com/offsouza/parking_lot_opencv)
 - [ Pregunta de entrevista de diseño orientado a objetos: Diseñar un estacionamiento de automóviles.](https://www.youtube.com/watch?v=2vtT6TBnOAM)
 ---
+
+--
+# Ejemplo en codigo 
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+class SistemaBiciparqueadero {
+    private Map<String, Integer> espaciosDisponibles;
+
+    public SistemaBiciparqueadero() {
+        espaciosDisponibles = new HashMap<>();
+        espaciosDisponibles.put("total", 50); // Total de espacios disponibles
+        espaciosDisponibles.put("ocupados", 10); // Espacios actualmente ocupados
+    }
+
+    // Método para consultar la disponibilidad de espacios
+    public String consultarDisponibilidad() {
+        int disponibles = espaciosDisponibles.get("total") - espaciosDisponibles.get("ocupados");
+        return "Espacios disponibles: " + disponibles;
+    }
+
+    // Método para registrar movimientos de entrada o salida
+    public void registrarMovimiento(String tipo) {
+        if ("entrada".equals(tipo)) {
+            if (espaciosDisponibles.get("ocupados") < espaciosDisponibles.get("total")) {
+                espaciosDisponibles.put("ocupados", espaciosDisponibles.get("ocupados") + 1);
+            } else {
+                System.out.println("No hay espacios disponibles.");
+            }
+        } else if ("salida".equals(tipo)) {
+            if (espaciosDisponibles.get("ocupados") > 0) {
+                espaciosDisponibles.put("ocupados", espaciosDisponibles.get("ocupados") - 1);
+            } else {
+                System.out.println("No hay bicicletas registradas en el parqueadero.");
+            }
+        }
+    }
+}
+
+public class AgenteBiciparqueadero {
+    public static void main(String[] args) {
+        SistemaBiciparqueadero sistema = new SistemaBiciparqueadero();
+
+        System.out.println("Consulta disponibilidad inicial:");
+        System.out.println(sistema.consultarDisponibilidad());
+
+        System.out.println("\nRegistro de entrada:");
+        sistema.registrarMovimiento("entrada");
+        System.out.println(sistema.consultarDisponibilidad());
+
+        System.out.println("\nRegistro de salida:");
+        sistema.registrarMovimiento("salida");
+        System.out.println(sistema.consultarDisponibilidad());
+    }
+}
+
