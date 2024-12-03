@@ -61,11 +61,17 @@ Revolucionar el parqueadero de la universidad ETITC mediante un sistema automati
 ## Diagrama de Actividades
 [![Captura-de-pantalla-2024-10-19-183322.png](https://i.postimg.cc/25qD1rrT/Captura-de-pantalla-2024-10-19-183322.png)](https://postimg.cc/B8GyyW81)
 ## Diagrama de Casos de Uso
-[![Captura-de-pantalla-2024-10-19-183431.png](https://i.postimg.cc/T204vBXP/Captura-de-pantalla-2024-10-19-183431.png)](https://postimg.cc/QVBbp4CL)
+[![lol.png](https://i.postimg.cc/6qFBXJPc/lol.png)](https://postimg.cc/V09xqTm0)
 ## Diagrama de Clases
-[![Captura-de-pantalla-2024-10-19-183507.png](https://i.postimg.cc/gJTLvYZJ/Captura-de-pantalla-2024-10-19-183507.png)](https://postimg.cc/2bn5YNTR)
+[![szs.png](https://i.postimg.cc/0j0htgsr/szs.png)](https://postimg.cc/jnC85FCr)
 ## Diagrama de Objetos
 [![Captura-de-pantalla-2024-11-14-154420.png](https://i.postimg.cc/W1rdn06V/Captura-de-pantalla-2024-11-14-154420.png)](https://postimg.cc/mPLZZz5p)
+## Diagrama de colaboracion
+[![melo.png](https://i.postimg.cc/vZb5RJdb/melo.png)](https://postimg.cc/WhYdgf3H)
+## Diagrama de Despliegue
+[![va.png](https://i.postimg.cc/BQqvJ4tY/va.png)](https://postimg.cc/PNRH4GWY)
+## Diagrama de Estado
+[![Sin-t-tulo.png](https://i.postimg.cc/RVXwBPCt/Sin-t-tulo.png)](https://postimg.cc/D84SQPXf)
 
 ## Referencias de Interés
 
